@@ -15,3 +15,6 @@ pip install -r requirements.txt
 ```
 # Command to check Chainlit is working
 chainlit hello
+
+# Command to run the application
+chainlit run app.py
