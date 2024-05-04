@@ -3,13 +3,17 @@
 
 
 ```bash
-conda create -n chain python=3.10 -y
+conda create -n chainlit python=3.10 -y
 ```
 
 ```bash
-conda activate chain
+conda activate chainlit
 ```
 
+# If setup.py needs to be installed seprately, normall it will be executed as "-e ." in requirements.txt file
+```bash
+python setup.py install
+```
 ```bash
 pip install -r requirements.txt
 ```
